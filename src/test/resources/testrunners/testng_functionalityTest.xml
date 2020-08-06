@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Calculator Test automtion suite" verbose="1">
+
+	<listeners>
+
+		<listener
+			class-name="com.qa.calculator.testlisteners.ExtentReportListener" />
+
+	</listeners>
+
+	<test name="Calculator fucntionality test">
+		<classes>
+			<class name="com.qa.calculator.tests.CalculatorTest" />
+
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.calculator.tests.CalculatorTest">
+        <methods>
+          <include name="verifyClickon0"/>
+          <include name="verifyClickon5"/>
+          <include name="verifyClickon3"/>
+          <include name="verifyClickon4"/>
+          <include name="verifyClickon9"/>
+          <include name="verifyClickon2"/>
+          <include name="verifyCEButtonResetsValue"/>
+          <include name="verifyClickon7"/>
+          <include name="verifyDivisionOfOnePositiveOneNegativeNumber"/>
+          <include name="verifyClickon8"/>
+          <include name="beforeTest"/>
+          <include name="verifyClickon6"/>
+          <include name="verifySubtractionOfTwoIntegerNumbers"/>
+          <include name="verifyDivisionOfTwoIntegerNumbers"/>
+          <include name="verifyMultiplicationOfTwoIntegerNumbers"/>
+          <include name="verifyDivisionOfNumebrByNegativeNumber"/>
+          <include name="verifyAtleastNineDigitAdded"/>
+          <include name="verifyDivisionOfNumebrByZero"/>
+          <include name="verifyDivisionOfTwoNegativeNumbers"/>
+          <include name="verifyMultiplicationOfTwoNegativeNumbers"/>
+          <include name="verifyNoMoreThanNineDigitsAdded"/>
+          <include name="verifyMultiplicationOfOnePositiveOneNegativeNumber"/>
+          <include name="verifySubtractionOfTwoNegativeNumbers"/>
+          <include name="verifySubtractionOfOnePositiveOneNegativeNumber"/>
+          <include name="verifyClickon1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.calculator.tests.CalculatorTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
